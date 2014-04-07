@@ -12,9 +12,9 @@ public class FontHelper {
     public static Typeface getComfortaa(Context context, boolean bold) {
         synchronized (lock) {
             if (!bold && mComfortaaRegular == null)
-                mComfortaaRegular = Typeface.createFromAsset(context.getAssets(), "Comfortaa-Regular.ttf");
+                mComfortaaRegular = Typeface.createFromAsset(context.getAssets(), "OpenSans-Regular.ttf");
             else if (bold && mComfortaaBold == null)
-                mComfortaaBold = Typeface.createFromAsset(context.getAssets(), "Comfortaa-Bold.ttf");
+                mComfortaaBold = Typeface.createFromAsset(context.getAssets(), "OpenSans-Semibold.ttf");
         }
         return bold ? mComfortaaBold : mComfortaaRegular;
     }
