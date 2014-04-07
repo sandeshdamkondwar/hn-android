@@ -5,26 +5,16 @@
         <shape>
             <gradient
                 android:angle="270"
-                android:endColor="#aa4401"
+                android:endColor="#7e3300"
                 android:startColor="#7e3300" />
-
-            <padding
-                android:bottom="1dp"
-                android:top="1dp" />
         </shape>
     </item>
     <item>
         <shape android:shape="rectangle" >
             <gradient
                 android:angle="270"
-                android:endColor="#c34e00"
+                android:endColor="#e55c00"
                 android:startColor="#e55c00" />
         </shape>
     </item>
-    <item>
-        <bitmap
-            android:src="@drawable/transparent_noise"
-            android:tileMode="repeat" />
-    </item>
-
 </layer-list>
